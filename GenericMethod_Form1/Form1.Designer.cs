@@ -45,6 +45,7 @@
             this.btnInt.TabIndex = 0;
             this.btnInt.Text = "INT";
             this.btnInt.UseVisualStyleBackColor = true;
+            this.btnInt.Click += new System.EventHandler(this.BtnInt_Click);
             // 
             // btnChar
             // 
@@ -55,6 +56,7 @@
             this.btnChar.TabIndex = 0;
             this.btnChar.Text = "CHAR";
             this.btnChar.UseVisualStyleBackColor = true;
+            this.btnChar.Click += new System.EventHandler(this.BtnChar_Click);
             // 
             // btnString
             // 
@@ -65,6 +67,7 @@
             this.btnString.TabIndex = 0;
             this.btnString.Text = "STRING";
             this.btnString.UseVisualStyleBackColor = true;
+            this.btnString.Click += new System.EventHandler(this.BtnString_Click);
             // 
             // btnBool
             // 
@@ -75,6 +78,7 @@
             this.btnBool.TabIndex = 0;
             this.btnBool.Text = "BOOL";
             this.btnBool.UseVisualStyleBackColor = true;
+            this.btnBool.Click += new System.EventHandler(this.BtnBool_Click);
             // 
             // btnDatetime
             // 
@@ -85,6 +89,7 @@
             this.btnDatetime.TabIndex = 0;
             this.btnDatetime.Text = "DATETIME";
             this.btnDatetime.UseVisualStyleBackColor = true;
+            this.btnDatetime.Click += new System.EventHandler(this.BtnDatetime_Click);
             // 
             // btnAraba
             // 
@@ -95,12 +100,13 @@
             this.btnAraba.TabIndex = 0;
             this.btnAraba.Text = "ARABA";
             this.btnAraba.UseVisualStyleBackColor = true;
+            this.btnAraba.Click += new System.EventHandler(this.BtnAraba_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 443);
+            this.ClientSize = new System.Drawing.Size(506, 403);
             this.Controls.Add(this.btnChar);
             this.Controls.Add(this.btnAraba);
             this.Controls.Add(this.btnDatetime);
@@ -109,6 +115,7 @@
             this.Controls.Add(this.btnInt);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
